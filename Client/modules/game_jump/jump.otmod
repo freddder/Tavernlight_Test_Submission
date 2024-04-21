@@ -1,0 +1,9 @@
+Module
+  name: game_jump
+  description: Question 7
+  author: BeniS
+  website: www.otclient.info
+  sandboxed: true
+  scripts: [ jump ]
+  @onLoad: init()
+  @onUnload: terminate()
